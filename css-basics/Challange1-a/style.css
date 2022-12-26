@@ -1,0 +1,26 @@
+html {
+	background-color: tan;
+}
+
+body {
+	background-color: white;
+	border: dashed;
+	border-color: black;
+	margin: fixed;
+}
+
+h1 {
+	border-bottom: dashed;
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+}
+
+li:first-letter
+ {
+ 	font-weight: bold;
+
+}

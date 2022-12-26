@@ -1,0 +1,16 @@
+.norm {
+	background-color: pink;
+	font-family: Verdana, DejaVu Sans, sans-serif;
+}
+.mid {
+	font-size: 24px;
+}
+#big {
+	color: blue;
+	font-size: 36px;
+}
+#mid{
+	background-color: lightgreen;
+	font-size: 24px;
+	font-weight: bold;
+}

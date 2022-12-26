@@ -1,0 +1,22 @@
+#wrap {
+	background-color: violet;
+	display: flex;
+
+}
+#nav {
+	display: flex;
+	float: left;
+	padding: 20px;
+	flex-direction: column;
+	background-color: lightcoral;
+}
+
+#content{
+	
+	text-align: center;
+}
+
+
+#content ul {
+	list-style: none;
+}
