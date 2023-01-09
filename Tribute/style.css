@@ -74,12 +74,14 @@ h3{
     letter-spacing: 10px;
     font-weight: bold;
     font-style: oblique;
+    border-radius: 6px;
 }
 
 #pano:hover{
     width: 1000px;
+    transition-duration: 3s;
     height: 250px;
-    transition-duration: 1s;
+    transition-duration: 3s;
 
 }
 
