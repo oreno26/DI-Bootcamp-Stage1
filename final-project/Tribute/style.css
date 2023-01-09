@@ -1,0 +1,85 @@
+body{
+    background-image: url(1.jpg);
+    background-size: auto;
+    color: rgb(211, 224, 243);
+}
+
+nav{
+}
+ul{
+    list-style: none;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    position: fixed;
+}
+
+a:link {
+    color: red;
+  }
+  
+a:visited {
+    color: green;
+  }
+  
+
+a:hover {
+    color: hotpink;
+  }
+  
+a:active {
+    color: blue;
+  }
+
+
+form{
+    color: blueviolet;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+.title{
+    text-align: center;
+    letter-spacing: 20px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.history{
+    width: 200px;
+    width: 250px;
+    border: dodgerblue double 5px;
+}
+.img{
+   display: flex;
+   justify-content: space-around;
+   
+
+}
+img:hover{
+    width: 500px;
+    height: 400px;
+    transition-duration: 1s;
+}
+
+.article{
+    text-align: center;
+    margin: 0 27%;
+    border: green dotted 5px;
+    margin-bottom: 10%;
+}
+
+h3{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#pano:hover{
+    width: 1000px;
+    height: 250px;
+    transition-duration: 1s;
+
+}
+
