@@ -5,7 +5,7 @@ body{
 }
 section{
     background-color: rgb(0, 0, 0);
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 
@@ -14,6 +14,8 @@ ul{
     /* display: flex; */
     /* justify-content: space-around; */
     position: fixed;
+    border: greenyellow double 5px;
+    float: left;
 }
 
 a:link {
@@ -35,7 +37,7 @@ a:active {
 
 
 form{
-    color: blueviolet;
+    color: rgb(43, 255, 0);;
 }
 
 header{
@@ -64,6 +66,7 @@ img:hover{
     width: 500px;
     height: 400px;
     transition-duration: 1s;
+    overflow: visible;
 }
 
 .article{
@@ -79,7 +82,7 @@ h3{
     font-style: oblique;
     border-radius: 6px;
     background-color: rgb(0, 0, 0);
-    opacity: 0.3;
+    opacity: 0.7;
     padding: 0;
     margin: 0;
 }
@@ -94,5 +97,15 @@ h3{
 
 #profile{
     background-image: url(Profile-1.jpg);
-    background-size: 1000px;
+    background-size: 1200px;
+}
+
+h4{
+    color: rgb(43, 255, 0);
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-style: oblique;
+    border-radius: 6px;
+    padding: 0;
+    margin: 0;
 }
