@@ -1,14 +1,7 @@
-html{
-    background-image: url(1.jpg);
-    /* background-size: cover; */
-    background-repeat: repeat;
-    color: rgb(43, 255, 0);
-    position: static;
-    
-}
 body{
-    position: relative;
-    
+    background-image: url(1.jpg);
+    background-size: cover;
+    /* color: rgb(43, 255, 0); */
 }
 section{
     background-color: rgb(0, 0, 0);
@@ -77,12 +70,12 @@ img:hover{
     overflow: visible;
 }
 
-.article{
-    text-align: center;
-    margin: 0 27%;
-    border: green dotted 5px;
-    margin-bottom: 10%;
-    width: 200px;
+form{
+    font-size: x-large;
+    margin:auto;
+    /* border: green dotted 5px; */
+    letter-spacing: 5px;
+    
 }
 
 h3{
@@ -118,7 +111,6 @@ h4{
     padding: 0;
     margin: 0;
 }
-
 
 @media (max-width:600px) {
     section {
@@ -158,5 +150,11 @@ ul{
     position: fixed;
     border: greenyellow double 5px;
     
+}
+form{
+    text-align: center;
+    margin: 0 27%;
+    border: green dotted 5px;
+    margin-bottom: 10%;
 }
 }

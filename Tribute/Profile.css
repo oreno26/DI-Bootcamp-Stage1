@@ -1,15 +1,4 @@
-html{
-    background-image: url(1.jpg);
-    /* background-size: cover; */
-    background-repeat: repeat;
-    color: rgb(43, 255, 0);
-    position: static;
-    
-}
-body{
-    position: relative;
-    
-}
+ 
 section{
     background-color: rgb(0, 0, 0);
     opacity: 0.7;
@@ -21,7 +10,7 @@ ul{
     /* display: flex; */
     /* justify-content: space-around; */
     position: fixed;
-    border: greenyellow double 5px;
+    /* border: greenyellow double 5px; */
     float: left;
 }
 
@@ -82,7 +71,6 @@ img:hover{
     margin: 0 27%;
     border: green dotted 5px;
     margin-bottom: 10%;
-    width: 200px;
 }
 
 h3{
@@ -107,18 +95,23 @@ h3{
 #profile{
     background-image: url(Profile-1.jpg);
     background-size: 1200px;
+    float: left;
+    display: flex;
+    
 }
 
 h4{
-    color: rgb(43, 255, 0);
+    color: white !important;
     letter-spacing: 10px;
     font-weight: bold;
     font-style: oblique;
     border-radius: 6px;
     padding: 0;
     margin: 0;
-}
+    text-decoration: underline;
+    
 
+}
 
 @media (max-width:600px) {
     section {
@@ -157,6 +150,21 @@ ul{
     /* justify-content: space-around; */
     position: fixed;
     border: greenyellow double 5px;
-    
 }
+.info{
+        color: rgb(30, 255, 0) !important;
+        /* letter-spacing: 10px; */
+        font-weight: bold;
+        /* font-style: oblique; */
+        /* border-radius: 6px; */
+        padding: 0;
+        margin: 0;
+        text-decoration: underline;
+        font-size: x-small;
+    }
+    #profile{
+        background-image: url(Profile-1.jpg);
+        background-size: cover;
+    }
+
 }
