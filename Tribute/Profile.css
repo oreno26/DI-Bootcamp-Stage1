@@ -33,7 +33,7 @@ a:active {
 
 
 form{
-    color: rgb(43, 255, 0);;
+    color: rgb(43, 255, 0);
 }
 
 header{
@@ -52,7 +52,9 @@ header{
     width: 250px;
     border: dodgerblue double 5px;
 }
-.img{
+img{
+    width: 40px;
+    height: 40px;
    display: flex;
    justify-content: space-around;
    position: static;
@@ -60,11 +62,14 @@ header{
 
 }
 img:hover{
-    width: 500px;
-    height: 400px;
-    transition-duration: 1s;
-    overflow: visible;
-}
+        -webkit-transform: rotateZ(-720deg);
+        -ms-transform: rotateZ(-720);
+        transform: rotateZ(-720);
+        transition: 4s ease;
+        width: 500px;
+        height: auto;
+        }
+
 
 .article{
     text-align: center;
@@ -99,9 +104,12 @@ h3{
     display: flex;
     
 }
+audio{
+    color: green;
+}
 
 h4{
-    color: white !important;
+    color: green !important;
     letter-spacing: 10px;
     font-weight: bold;
     font-style: oblique;
@@ -129,12 +137,8 @@ h4{
         
     }
 
-img:hover{
-    width: 100%;
-    height: auto;
-    transition-duration: 1s;
-    overflow: visible;
-    animation: forwards;
+img{
+   visibility: hidden;
 }
 #pano:hover{
     width: 100%;

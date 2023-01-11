@@ -1,9 +1,10 @@
 html{
     background-image: url(1.jpg);
-    /* background-size: cover; */
+    background-size: auto   ;
     background-repeat: repeat;
     color: rgb(43, 255, 0);
     position: static;
+    background-attachment: fixed;
     
 }
 body{
@@ -16,13 +17,15 @@ section{
 }
 
 
-ul{
+nav{
     list-style: none;
-    /* display: flex; */
-    /* justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
     position: fixed;
     border: greenyellow double 5px;
     float: left;
+    flex-direction: column;
+    font-size: large;
 }
 
 a:link {
@@ -56,6 +59,8 @@ header{
     letter-spacing: 20px;
     font-weight: bold;
     font-style: oblique;
+    border-bottom: double 5px;
+    
 }
 
 .history{
@@ -72,9 +77,8 @@ header{
 }
 img:hover{
     width: 500px;
-    height: 400px;
-    transition-duration: 1s;
-    overflow: visible;
+    height: auto;
+    transition-duration: 3s;
 }
 
 .article{
@@ -97,9 +101,9 @@ h3{
 }
 
 #pano:hover{
-    width: 1000px;
+    width: 1400px;
     transition-duration: 3s;
-    height: 250px;
+    height: auto;
     transition-duration: 3s;
 
 }
@@ -120,12 +124,12 @@ h4{
 }
 
 
- @media (max-width:500px) { 
+ @media (max-width:400px) { 
     section {   
       width: 200px;
     }
     html{
-        max-width: 500px;
+        max-width: 400px;
         font-size: x-large;
     }
     .img{
@@ -151,12 +155,14 @@ img:hover{
    animation: backwards;
 
 }
-ul{
+nav{
     list-style: none;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
     border: greenyellow double 5px;
+    flex-direction: row;
+    
     
 }
 .article{
