@@ -113,7 +113,7 @@ h4{
 
 }
 
-@media (max-width:600px) {
+@media (max-width:500px) {
     section {
       width: 200px;
     }
@@ -152,7 +152,6 @@ ul{
     border: greenyellow double 5px;
 }
 .info{
-        color: rgb(30, 255, 0) !important;
         /* letter-spacing: 10px; */
         font-weight: bold;
         /* font-style: oblique; */

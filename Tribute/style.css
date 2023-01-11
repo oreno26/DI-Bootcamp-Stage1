@@ -82,7 +82,7 @@ img:hover{
     margin: 0 27%;
     border: green dotted 5px;
     margin-bottom: 10%;
-    width: 200px;
+    /* width: 200px; */
 }
 
 h3{
@@ -120,12 +120,12 @@ h4{
 }
 
 
-@media (max-width:600px) {
-    section {
+ @media (max-width:500px) { 
+    section {   
       width: 200px;
     }
     html{
-        max-width: 600px;
+        max-width: 500px;
         font-size: x-large;
     }
     .img{
@@ -158,5 +158,12 @@ ul{
     position: fixed;
     border: greenyellow double 5px;
     
+}
+.article{
+    text-align: center;
+    margin: 0 27%;
+    border: green dotted 5px;
+    margin-bottom: 10%;
+    width: 200px;
 }
 }
