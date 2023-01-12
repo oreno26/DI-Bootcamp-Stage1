@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="Register.css">
+    
 <head>
 	<title>Register</title>
-	
+	<link rel="stylesheet" href="Register.css">
 
 </head>
 <body>
@@ -13,12 +13,12 @@
 		  <button class="button" type="button"><a href="Profile.html">Oren Ovadia</a></button>
 		</form>
 	  </nav>
-	<form>
-		First Name: <input type="text" name="firstname"><br>
-		Last Name: <input type="text" name="lastname"><br>
-		Email: <input type="email" required name="email"><br>
-		Password: <input type="password" name="password" min="5"><br>
-		Birthday: <input type="date"><br name="birthday">
+	<form class="form">
+		First Name: <input type="text" placeholder="Firstname" required name="firstname"><br>
+		Last Name: <input type="text" placeholder="Lastname" required name="lastname"><br>
+		Email: <input type="email" placeholder="name@example.com" required name="email"><br>
+		Password: <input type="password" placeholder="6 or more characters" required pattern=".{6,}" name="password" min="5" ><br>
+		Birthday: <input type="date"><br required name="birthday">
 		Gender:<br>
 		<input type="radio" name="gender" name="gender" value="male">Male<br>
 		<input type="radio" name="gender" name="gender" value="female">Female<br>

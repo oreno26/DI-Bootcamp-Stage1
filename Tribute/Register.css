@@ -34,12 +34,6 @@ a:hover {
 a:active {
     color: blue;
   }
-
-
-form{
-    color: rgb(43, 255, 0);;
-}
-
 header{
     margin-bottom: 100px;
 }
@@ -75,6 +69,7 @@ form{
     margin:auto;
     /* border: green dotted 5px; */
     letter-spacing: 5px;
+    color: rgb(43, 255, 0);
     
 }
 
@@ -111,50 +106,19 @@ h4{
     padding: 0;
     margin: 0;
 }
+@media screen and (max-device-width: 414px) {
 
-@media (max-width:500px) {
     section {
       width: 200px;
     }
     html{
         max-width: 600px;
-        font-size: x-large;
-    }
-    .img{
-        display: flex;
-        flex-direction: column;
-        position: static;
-        align-items: center;
-        
-    }
+        font-size: 70px; 
+     }
 
-img:hover{
-    width: 100%;
-    height: auto;
-    transition-duration: 1s;
-    overflow: visible;
-    animation: forwards;
-}
-#pano:hover{
-    width: 100%;
-    transition-duration: 3s;
-    height: auto;
-    transition-duration: 3s;
-   animation: backwards;
+    .form{
+        font-size: 70px;
+        /* color: aliceblue; */
+    }
+} 
 
-}
-ul{
-    list-style: none;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    position: fixed;
-    border: greenyellow double 5px;
-    
-}
-form{
-    text-align: center;
-    margin: 0 27%;
-    border: green dotted 5px;
-    margin-bottom: 10%;
-}
-}

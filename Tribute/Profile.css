@@ -121,6 +121,7 @@ h4{
 
 }
 
+
 @media (max-width:500px) {
     section {
       width: 200px;
@@ -169,5 +170,4 @@ ul{
         background-image: url(Profile-1.jpg);
         background-size: cover;
     }
-
 }
